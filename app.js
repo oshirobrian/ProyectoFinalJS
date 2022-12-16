@@ -105,7 +105,6 @@ if (formulario) {
   formulario.addEventListener('submit', enviarCompra)
 }
 
-
 if (vaciarCarrito) {
   vaciarCarrito.addEventListener("click", () => {
     carrito.length = [];
@@ -182,8 +181,6 @@ const mostrarCarrito = () => {
       <button class="btn btn-danger"  onclick="eliminarProducto(${id})">Eliminar producto</button>
         </div>
       </div>
-      
-  
       `;
     });
   }
@@ -257,9 +254,7 @@ function enviarCompra(e) {
 
     const btn = document.getElementById('button');
 
-    // document.getElementById('procesar-pago')
-    //  .addEventListener('submit', function(event) {
-    //    event.preventDefault();
+   
 
     btn.value = 'Enviando...';
 
