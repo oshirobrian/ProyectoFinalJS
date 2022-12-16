@@ -254,8 +254,6 @@ function enviarCompra(e) {
 
     const btn = document.getElementById('button');
 
-   
-
     btn.value = 'Enviando...';
 
     const serviceID = 'default_service';
@@ -287,7 +285,6 @@ function enviarCompra(e) {
       setTimeout(() => {
         alertExito.remove()
       }, 3000)
-
 
     }, 3000)
   }
